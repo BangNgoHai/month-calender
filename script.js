@@ -19,7 +19,7 @@ if(dt<10){
 
 function updateCalender() {
     // update the heading Infos
-    let month = ["January","Febuary","April","May","June","July","August","September","October","November","December"];
+    let month = ["January","Febuary","March","April","May","June","July","August","September","October","November","December"];
     let day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
     var i = month[m].substring(0,3);
     monthEl.innerText = `${month[m]}`;
